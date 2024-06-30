@@ -1,0 +1,16 @@
+[versions]
+
+coroutines_version = "1.6.4"
+gson_version = "2.9.0"
+lifecycle_version = "2.8.0"
+material3_version = "1.2.1"
+compose-version = "1.6.0"
+
+[libraries]
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines_version" }
+coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "coroutines_version" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson_version" }
+lifecycle-viewmodel-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle_version" }
+filekit-compose = "io.github.vinceglb:filekit-compose:0.6.1"
+material3 = { module = "org.jetbrains.compose.material3:material3-desktop", version.ref = "compose-version" }
+material-icons-extended-desktop = { module = "androidx.compose.material:material-icons-extended-desktop", version ="1.6.8" }
